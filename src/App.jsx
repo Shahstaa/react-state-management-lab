@@ -120,7 +120,7 @@ const App = () => {
               <li key={index}>
                 <img src={fighter.img} alt={fighter.name} />
                 <p>{fighter.name}</p>
-                <p>Price: ${fighter.price}</p>
+                <p>Price: {fighter.price}</p>
                 <p>Strength: {fighter.strength}</p>
                 <p>Agility: {fighter.agility}</p>
                 <button onClick={() => handleRemoveFighter(fighter)}>Remove</button>
